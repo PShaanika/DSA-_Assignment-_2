@@ -1,9 +1,9 @@
-import ballerinax/kafka; // Import Kafka library for messaging
-//import ballerina/sql; // Import SQL module for database operations
-import ballerina/io; // Import IO library to handle input and output operations
-import ballerinax/mysql; // Import MySQL library to handle database connections.
-//import ballerina/uuid; // Import UUID library for generating unique IDs.
-import ballerinax/mysql.driver as _; // Import MySQL driver.
+import ballerinax/kafka; 
+//import ballerina/sql;
+import ballerina/io;
+import ballerinax/mysql;
+//import ballerina/uuid;
+import ballerinax/mysql.driver as _; 
 
 // Define the structure of a shipment detail record
 // This record holds all necessary details for a shipment
